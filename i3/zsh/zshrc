@@ -1,0 +1,33 @@
+function gst() { bash ~/xdot/custom/git/gst.sh }
+zle -N gst
+
+
+function gitstash () { bash ~/xdot/custom/git/gitstash.sh }
+zle -N gitstash 
+
+function gitstashapply () { bash ~/xdot/custom/git/gitstashapply.sh }
+zle -N gitstashapply 
+
+function gitadd () { bash ~/xdot/custom/git/gitadd.sh }
+zle -N gitadd 
+
+function gitaddsrc () { bash ~/xdot/custom/git/gitaddsrc.sh }
+zle -N gitaddsrc 
+
+function gitcommit() { bash ~/xdot/custom/git/gitcommit.sh }
+zle -N gitcommit
+
+function gitpull() { bash ~/xdot/custom/git/gitpull.sh }
+zle -N gitpull
+
+function ggpush() { bash ~/xdot/custom/git/ggpush.sh }
+zle -N ggpush 
+
+bindkey '^q' gst 
+bindkey '^w' gitstash 
+bindkey '^e' gitstashapply
+bindkey '^a' gitadd 
+bindkey '^s' gitaddsrc
+bindkey '^d' gitcommit
+bindkey '^z' gitpull
+bindkey '^x' ggpush
