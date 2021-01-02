@@ -1,0 +1,9 @@
+bindsym $mod4+q exec bash ~/xdot/custom/git/gst.sh
+bindsym $mod4+w exec bash ~/xdot/custom/git/gitstash.sh
+bindsym $mod4+e exec bash ~/xdot/custom/git/gitstashapply.sh
+bindsym $mod4+a exec bash ~/xdot/custom/git/gitaddd.sh
+bindsym $mod4+s exec bash ~/xdot/custom/git/gitaddsrc.sh
+bindsym $mod4+d exec bash ~/xdot/custom/git/gitcommit.sh
+bindsym $mod4+z exec bash ~/xdot/custom/git/gitpull.sh
+bindsym $mod4+x exec bash ~/xdot/custom/git/ggpush.sh
+
